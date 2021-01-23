@@ -36,6 +36,5 @@ if __name__ == "__main__":
         cv2.rectangle(img, (startX, startY), (endX, endY), color, 2)
 
     # show the output frame
-    # cv2.imwrite("demo.png", img)
     cv2.imshow("Frame", img)
     key = cv2.waitKey(0)

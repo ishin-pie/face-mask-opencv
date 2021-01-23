@@ -34,6 +34,11 @@ Camera detection
 python camera.py
 ```
 
+Web application
+``` shell script
+python server.py
+```
+
 ### Result
 ![face-mask-detection](demo/demo.png)
 
